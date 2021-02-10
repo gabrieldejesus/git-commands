@@ -1,14 +1,32 @@
 <img src="https://i.ibb.co/xh9kF3h/cover.png" align="center" alt="Principais comandos do Git" border="0">
 
+<p align="center">
+   <img alt="Stars" src="https://img.shields.io/github/stars/gabrieldejesus/git-commands?color=4A90E2&label=STARS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Forks" src="https://img.shields.io/github/forks/gabrieldejesus/git-commands?color=4A90E2&label=FORKS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/git-commands?color=4A90E2&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/git-commands?color=4A90E2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+  <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=4A90E2&labelColor=222222" />
+  </a>
+</p>
+
 # Principais comandos do Git
 
 - Iniciando um Repositório
 
   ```git init```
+  
+---
 
 - Listando Arquivos Modificados
 
   ```git status```
+  
+---
 
 - Desfazendo Alterações
 
@@ -28,9 +46,14 @@
 
 		```git revert HEAD```
 
+---
+
 - Renomear Commit
 
 	```git commit —amend```
+
+---
+
 
 - Branches
 	- Listando Branches locais
@@ -88,6 +111,8 @@
 
     ```git checkout --orphan minha-branch-orfa```
 
+---
+
 - Visualizando o Histórico de Commits
 
   ```git log```
@@ -124,6 +149,8 @@
 
   ```git log --grep produtos --and --grep usuarios```
 
+---
+
 - Exibir branches em um modo mais legível
 
   É possível mandar imprimir o histórico exibindo as branches do repositório com algo 
@@ -155,6 +182,8 @@
     --oneline
     --graph
   ```
+
+---
 
 - Trabalhando em mais de uma coisa sem fazer commit
 
@@ -197,9 +226,4 @@
       
       ```git stash drop stash@{5}```
 
-- Juntando alguns pedaços do trabalho
-Pode ser que você esteja trabalhando em uma branch e queira fazer o merge do código 
-dela com outra branch, mas não quer juntar o trabalho inteiro, apenas um commit 
-específico. Isso é possível com o Cherry Pick.
-
-  ```git cherry-pick id-do-commit```
+---
