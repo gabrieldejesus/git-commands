@@ -1,3 +1,5 @@
+<img src="https://i.ibb.co/xh9kF3h/cover.png" align="center" alt="Principais comandos do Git" border="0">
+
 # Principais comandos do Git
 
 - Iniciando um Repositório
