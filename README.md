@@ -116,11 +116,11 @@
 
 	Procurar por "produtos" OU "usuarios"
 
-	  ```git log --grep produtos --grep usuarios```
+  ```git log --grep produtos --grep usuarios```
 	
 	Procurar por "produtos" E "usuarios"
 
-	  ```git log --grep produtos --and --grep usuarios```
+  ```git log --grep produtos --and --grep usuarios```
 
 - Exibir branches em um modo mais legível
 
