@@ -99,13 +99,13 @@
 
   ```shell
     Example:
-      i --- j --- k <== branch 'my branch'
-            /
-    a --- b --- c --- d --- h --- l <== branch 'main'
-        \ /
-          and --- f --- g <== branch 'my other branch'
+         i --- j --- k <== branch 'my branch'
+               /
+       a --- b --- c --- d --- h --- l <== branch 'main'
+           \ /
+             and --- f --- g <== branch 'my other branch'
 
-    1 --- 2 --- 3 --- 4 <== `orphaned 'branch
+       1 --- 2 --- 3 --- 4 <== `orphaned 'branch
   ```
 
   This can be useful when you want to place more than one project in the same
