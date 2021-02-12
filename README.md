@@ -130,7 +130,7 @@
 
   - Author's history
 
-    `git log --autor = name-author`
+    `git log --author = name-author`
 
   - History by date
 
