@@ -130,7 +130,7 @@
 
   - Histórico de um autor
 
-    `git log --autor=name-author`
+    `git log --author=name-author`
 
   - Histórico por data
 
