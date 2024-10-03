@@ -57,6 +57,11 @@
 
     `git rm --cached <filename>`
 
+  - Restoring a file according to another branch
+
+    `git checkout <commit_hash> -- <filename>`
+
+    ex: `git checkout origin/HEAD -- my_file.txt`
 ---
 
 - Rename Commit
