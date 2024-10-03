@@ -57,7 +57,7 @@
 
     `git rm --cached <filename>`
 
-  - Restoring a file according to another branch
+  - Restoring a file according to another commit
 
     `git checkout <commit_hash> -- <filename>`
 

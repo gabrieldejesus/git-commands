@@ -52,7 +52,16 @@
   - Desfazendo o último commit
 
     `git revert HEAD`
+  
+  - Removendo arquivo do Stage
 
+    `git rm --cached <filename>`
+
+  - Restaurando arquivo de acordo com um outro commit
+
+    `git checkout <commit_hash> -- <filename>`
+
+    ex: `git checkout origin/HEAD -- my_file.txt`
 ---
 
 - Renomear Commit
