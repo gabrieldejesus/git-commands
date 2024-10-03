@@ -53,6 +53,15 @@
 
     `git revert HEAD`
 
+  - Removing a file from the staging area
+
+    `git rm --cached <filename>`
+
+  - Restoring a file according to another commit
+
+    `git checkout <commit_hash> -- <filename>`
+
+    ex: `git checkout origin/HEAD -- my_file.txt`
 ---
 
 - Rename Commit
