@@ -53,6 +53,10 @@
 
     `git revert HEAD`
 
+  - Removing a file from the staging area
+
+    `git rm --cached <filename>`
+
 ---
 
 - Rename Commit
